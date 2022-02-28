@@ -34,7 +34,7 @@ func reshapeDeptInfo(
 		if i < len(leaderStatuses) {
 			// apparently leaderStatuses could sometimes be empty, don't set
 			// anybody as leader in that case
-			// see https://github.com/xen0n/go-workwx/pull/78
+			// see https://github.com/maxmilia/go-workwx/pull/78
 			result[i].IsLeader = leaderStatuses[i] != 0
 		}
 	}

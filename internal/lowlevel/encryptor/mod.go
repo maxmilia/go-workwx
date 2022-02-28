@@ -9,7 +9,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/xen0n/go-workwx/internal/lowlevel/pkcs7"
+	"github.com/maxmilia/go-workwx/internal/lowlevel/pkcs7"
 )
 
 type WorkwxPayload struct {
